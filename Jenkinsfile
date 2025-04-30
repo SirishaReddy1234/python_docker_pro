@@ -36,7 +36,7 @@ pipeline {
                     
                     
                     // Run the Docker container
-                    sh "docker run -d -p 8081:8080 --name my_app_container image_docker"
+                    sh "docker run -d -p 8085:8085 --name my_app_container09 image_docker"
                     
                     // Print container details for verification
                     
